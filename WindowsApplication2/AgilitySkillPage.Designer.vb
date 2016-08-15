@@ -124,9 +124,12 @@ Partial Class AgilitySkillPage
         '
         'GroupBox1
         '
+        Me.GroupBox1.BackColor = System.Drawing.Color.Transparent
+        Me.GroupBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.GroupBox1.Controls.Add(Me.ButtonAcrobaticPlus)
         Me.GroupBox1.Controls.Add(Me.AcrobaticsRollLabel)
         Me.GroupBox1.Controls.Add(Me.ButtonAcrobaticMinus)
+        Me.GroupBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.Location = New System.Drawing.Point(34, 61)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(200, 45)
@@ -136,9 +139,12 @@ Partial Class AgilitySkillPage
         '
         'GroupBox2
         '
+        Me.GroupBox2.BackColor = System.Drawing.Color.Transparent
+        Me.GroupBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.GroupBox2.Controls.Add(Me.ButtonBrawlingPlus)
         Me.GroupBox2.Controls.Add(Me.BrawlingRollLabel)
         Me.GroupBox2.Controls.Add(Me.ButtonBrawlingMinus)
+        Me.GroupBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox2.Location = New System.Drawing.Point(34, 112)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Size = New System.Drawing.Size(200, 45)
@@ -176,9 +182,11 @@ Partial Class AgilitySkillPage
         '
         'GroupBox3
         '
+        Me.GroupBox3.BackColor = System.Drawing.Color.Transparent
         Me.GroupBox3.Controls.Add(Me.ButtonDodgePlus)
         Me.GroupBox3.Controls.Add(Me.DodgeRollLabel)
         Me.GroupBox3.Controls.Add(Me.ButtonDodgeMinus)
+        Me.GroupBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox3.Location = New System.Drawing.Point(34, 163)
         Me.GroupBox3.Name = "GroupBox3"
         Me.GroupBox3.Size = New System.Drawing.Size(200, 45)
@@ -216,9 +224,11 @@ Partial Class AgilitySkillPage
         '
         'GroupBox4
         '
+        Me.GroupBox4.BackColor = System.Drawing.Color.Transparent
         Me.GroupBox4.Controls.Add(Me.ButtonFirearmsPlus)
         Me.GroupBox4.Controls.Add(Me.FirearmsRollLabel)
         Me.GroupBox4.Controls.Add(Me.ButtonFirearmsMinus)
+        Me.GroupBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox4.Location = New System.Drawing.Point(34, 214)
         Me.GroupBox4.Name = "GroupBox4"
         Me.GroupBox4.Size = New System.Drawing.Size(200, 45)
@@ -256,9 +266,11 @@ Partial Class AgilitySkillPage
         '
         'GroupBox5
         '
+        Me.GroupBox5.BackColor = System.Drawing.Color.Transparent
         Me.GroupBox5.Controls.Add(Me.ButtonFlyingPlus)
         Me.GroupBox5.Controls.Add(Me.FlyingRollLabel)
         Me.GroupBox5.Controls.Add(Me.ButtonFlyingMinus)
+        Me.GroupBox5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox5.Location = New System.Drawing.Point(34, 265)
         Me.GroupBox5.Name = "GroupBox5"
         Me.GroupBox5.Size = New System.Drawing.Size(200, 45)
@@ -296,9 +308,11 @@ Partial Class AgilitySkillPage
         '
         'GroupBox6
         '
+        Me.GroupBox6.BackColor = System.Drawing.Color.Transparent
         Me.GroupBox6.Controls.Add(Me.ButtonMeleePlus)
         Me.GroupBox6.Controls.Add(Me.MeleeCombatRollLabel)
         Me.GroupBox6.Controls.Add(Me.ButtonMeleeMinus)
+        Me.GroupBox6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox6.Location = New System.Drawing.Point(34, 316)
         Me.GroupBox6.Name = "GroupBox6"
         Me.GroupBox6.Size = New System.Drawing.Size(200, 45)
@@ -336,9 +350,11 @@ Partial Class AgilitySkillPage
         '
         'GroupBox7
         '
+        Me.GroupBox7.BackColor = System.Drawing.Color.Transparent
         Me.GroupBox7.Controls.Add(Me.Button13)
         Me.GroupBox7.Controls.Add(Me.MissleWeaponRollLabel)
         Me.GroupBox7.Controls.Add(Me.Button14)
+        Me.GroupBox7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox7.Location = New System.Drawing.Point(34, 367)
         Me.GroupBox7.Name = "GroupBox7"
         Me.GroupBox7.Size = New System.Drawing.Size(200, 45)
@@ -379,6 +395,7 @@ Partial Class AgilitySkillPage
         Me.GroupBox8.Controls.Add(Me.Button15)
         Me.GroupBox8.Controls.Add(Me.RidingRollLabel)
         Me.GroupBox8.Controls.Add(Me.Button16)
+        Me.GroupBox8.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox8.Location = New System.Drawing.Point(34, 418)
         Me.GroupBox8.Name = "GroupBox8"
         Me.GroupBox8.Size = New System.Drawing.Size(200, 45)
@@ -419,6 +436,7 @@ Partial Class AgilitySkillPage
         Me.GroupBox9.Controls.Add(Me.Button17)
         Me.GroupBox9.Controls.Add(Me.RunningRollLabel)
         Me.GroupBox9.Controls.Add(Me.Button18)
+        Me.GroupBox9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox9.Location = New System.Drawing.Point(34, 469)
         Me.GroupBox9.Name = "GroupBox9"
         Me.GroupBox9.Size = New System.Drawing.Size(200, 45)
@@ -575,7 +593,6 @@ Partial Class AgilitySkillPage
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = Global.WindowsApplication2.My.Resources.Resources._20160710_20160710_MD0A9625_Edit
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.ClientSize = New System.Drawing.Size(332, 645)
         Me.Controls.Add(Me.Label4)

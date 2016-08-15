@@ -32,4 +32,20 @@
         SleightOfHandRollLabel.Text = Pip2String(Sheet.GetSkill(0, 9))
         ThrowingRollLabel.Text = Pip2String(Sheet.GetSkill(0, 10))
     End Sub
+
+    Private Sub AgilitySkillPage_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Dim PresetSkills As New Collection 'this whole thing should be a each next loop that loads from a file. Remake it dummy.
+        PresetSkills.Add(AcrobaticsRollLabel.Text)
+        PresetSkills.Add(BrawlingRollLabel.Text)
+        PresetSkills.Add(DodgeRollLabel.Text)
+        PresetSkills.Add(FirearmsRollLabel.Text)
+        PresetSkills.Add(FlyingRollLabel.Text)
+        PresetSkills.Add(MeleeCombatRollLabel.Text)
+        PresetSkills.Add(MissleWeaponRollLabel)
+        PresetSkills.Add(RidingRollLabel.Text)
+        PresetSkills.Add(RunningRollLabel)
+        PresetSkills.Add(SleightOfHandRollLabel)
+        PresetSkills.Add(ThrowingRollLabel)
+        PresetSkills = Pip2String(Sheet.GetStat(0))
+    End Sub
 End Class
